@@ -1502,9 +1502,9 @@ class adminweb extends CI_Controller {
 					$config['allowed_types']= 'gif|jpg|png|jpeg';
 					$config['encrypt_name']	= TRUE;
 					$config['remove_spaces']	= TRUE;	
-					$config['max_size']     = '3000';
-					$config['max_width']  	= '268';
-					$config['max_height']  	= '249';
+					$config['max_size']     = '100000000';
+					$config['max_width']  	= '100000000';
+					$config['max_height']  	= '100000000';
 					
 			 
 					$this->load->library('upload', $config);
