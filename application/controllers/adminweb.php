@@ -1471,6 +1471,7 @@ class adminweb extends CI_Controller {
 		$this->form_validation->set_rules('stok','Stok','required');
 		$this->form_validation->set_rules('deskripsi','Deskripsi','required');
 
+
 		if ($this->form_validation->run()==FALSE) {
 
 			$data['kode_produk'] = $this->admin_model->GetMaxKodeProduk();
