@@ -192,7 +192,7 @@
   <!-- BEGIN FOOTER -->
   <div class="footer">
     <div class="footer-inner">
-      2013 &copy; Adriano MX Online Shop - Admin Dashboard.
+      2013 &copy; Template Bootstrap - Admin Dashboard.
     </div>
     <div class="footer-tools">
       <span class="go-top">

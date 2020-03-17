@@ -13,7 +13,7 @@
     <meta name="keyword" content="<?php echo $keyword;?>">
     <meta name="description" content="<?php echo $description;?>">
     <meta name="author" content="">
-    <title>Home | <?php echo $tittle;?></title>
+    <title>Home | SI Onlineshop | UMKM</title>
     <link href="<?php echo base_url();?>asset/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo base_url();?>asset/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo base_url();?>asset/css/prettyPhoto.css" rel="stylesheet">

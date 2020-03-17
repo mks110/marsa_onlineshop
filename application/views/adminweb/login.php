@@ -77,7 +77,7 @@
     <!-- END LOGIN -->
     <!-- BEGIN COPYRIGHT -->
     <div class="copyright">
-        2014 &copy; Adriano MX Shop - Admin Dashboard.
+        2014 &copy; Template bootstrap - Admin Dashboard.
     </div>
    
 </body>
