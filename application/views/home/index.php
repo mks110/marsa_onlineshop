@@ -36,29 +36,7 @@
 			</div>
 		</div><!--/header_top-->
 		
-		<div class="header-middle"><!--header-middle-->
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="logo pull-left">
-							<?php
-							foreach ($logo->result_array() as $value) {
-								$logo = $value['gambar'];
-							}
-
-							?>
-							<a href="<?php echo base_url();?>"><img src="<?php echo base_url();?>images/logo/<?php echo $logo;?>" alt="Adriano MX Online Shop" /></a>
-						</div>
-						<div class="btn-group pull-right">
-							
-							
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
+		
 	
 		<div class="header-bottom">
 			<div class="container">
@@ -137,15 +115,15 @@
 											<img src="<?php echo base_url();?>images/produk/<?php echo $value['gambar'];?>" alt="" />
 											<h2><?php echo $value['harga'];?></h2>
 											<p><?php echo $value['kode_produk'];?></p>
-											<a href="<?php echo base_url();?>home/produk/<?php echo $value['id_produk'];?>"><p> <?php echo $value['nama_produk'];?></p></a>
-											<a href="<?php echo base_url();?>home/keranjang/<?php echo $value['id_produk'];?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											<a href="#"><p> <?php echo $value['nama_produk'];?></p></a>
+											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 										<div class="product-overlay">
 											<div class="overlay-content">
 												<h2><?php echo $value['harga'];?></h2>
 												<p><?php echo $value['kode_produk'];?></p>
-												<a href="<?php echo base_url();?>home/produk/<?php echo $value['id_produk'];?>"><p> <?php echo $value['nama_produk'];?></p></a>
-												<a href="<?php echo base_url();?>home/keranjang/<?php echo $value['id_produk'];?>" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+												<a href="#"><p> <?php echo $value['nama_produk'];?></p></a>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
 										</div>
 								</div>

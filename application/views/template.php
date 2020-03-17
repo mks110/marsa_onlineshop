@@ -53,7 +53,7 @@
             $logo = $value['gambar'];
           }
           ?>
-        <img src="<?php echo base_url();?>images/logo/<?php echo $logo;?>" alt="logo" />
+        
         </a>
         <!-- END LOGO -->
         <!-- BEGIN RESPONSIVE MENU TOGGLER -->
@@ -64,63 +64,7 @@
         <!-- BEGIN TOP NAVIGATION MENU -->              
         <ul class="nav pull-right">
           
-        <li class="dropdown" id="header_inbox_bar">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-            <i class="icon-envelope"></i>
-            <?php
-            $query = $this->db->query("select count(status) as stts from tbl_hubungikami where status='0'");
-            foreach ($query->result_array() as $tampil) {
-              $status = $tampil['stts'];
-            }
-            ?>
-            <?php
-            if ($status!="0") { ?>
-            <span class="badge"><?php echo $status;?></span>  
-            <?php
-            }
-            else { ?>
-              <span class="badge"></span> 
-            <?php
-            }
-            ?>
-            
-            </a>
-            <ul class="dropdown-menu extended inbox">
-             
-              <li class="external">
-                <a href="<?php echo base_url();?>adminweb/buku_tamu">See all messages <i class="m-icon-swapright"></i></a>
-              </li>
-            </ul>
-          </li>
-
-          <li class="dropdown" id="header_inbox_bar">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-            <i class="icon-globe"></i>
-            <?php
-            $query = $this->db->query("select count(status) as stts from tbl_transaksi_header where status='0'");
-            foreach ($query->result_array() as $tampil) {
-              $status = $tampil['stts'];
-            }
-            ?>
-            <?php
-            if ($status!="0") { ?>
-            <span class="badge"><?php echo $status;?></span>  
-            <?php
-            }
-            else { ?>
-              <span class="badge"></span> 
-            <?php
-            }
-            ?>
-            
-            </a>
-            <ul class="dropdown-menu extended inbox">
-             
-              <li class="external">
-                <a href="<?php echo base_url();?>adminweb/transaksi">See all Transaksi <i class="m-icon-swapright"></i></a>
-              </li>
-            </ul>
-          </li>
+        
                      
           <!-- BEGIN USER LOGIN DROPDOWN -->
           <li class="dropdown user">
@@ -177,20 +121,7 @@
           </ul>
         </li>
         
-        <li>
-          <a class="active" href="javascript:;">
-          <i class="icon-sitemap"></i> 
-          <span class="title">Setting</span>
-          <span class="arrow "></span>
-          </a>
-          <ul class="sub-menu">
-            <li>
-              <a href="<?php echo base_url();?>adminweb/admin">
-              Admin
-              </a>
-            </li>
-          </ul>
-        </li>
+        
         
         
         

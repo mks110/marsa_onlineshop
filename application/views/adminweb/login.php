@@ -26,14 +26,6 @@
 
 <body class="login">
 
-    <div class="logo">
-        <?php foreach ($logo->result_array() as $value) {
-            $logo = $value['gambar'];
-        }
-
-        ?>
-        <img src="<?php echo base_url();?>images/logo/<?php echo $logo ;?>" alt="" /> 
-    </div>
     <div class="content">
 
     <?php if(validation_errors()) { ?>
